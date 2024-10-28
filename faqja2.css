@@ -1,0 +1,489 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#0A192F;
+      
+  }
+  #divkryesor{
+    background-color: #ECECEC;
+    height: auto;
+  }
+  
+  .h31{
+    display: block;
+    margin-left: -1200px;
+    margin-top:-60px ;
+    margin-bottom: 20px;
+    color: #FFC107;
+    font-size: 30px;
+  }
+  #divik2{
+    width: 100%;
+    height: auto;
+    background-color:  #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  
+  #divkk{
+      margin-top: 20px;
+      width:100%;
+      display: flex;
+      justify-content:center;
+      
+  
+  }
+  #dvheader{
+      width: 100%;
+      height: 100px;
+      background-color: #0A192F;
+      box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .divilist{
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+    white-space: nowrap; 
+    margin-right: 100px;
+  }
+  
+  
+  .li1,.li2,.li3 {
+    list-style: none;
+    width: 120px;
+    padding: 10px;
+    margin: 0 10px; 
+    font-size: 25px;
+    color: white;
+    background-color: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+      
+  
+  
+    }
+    a {
+      color: inherit;          
+      text-decoration: none;   
+  }
+    .li2{
+  
+      border-radius: 10px; 
+      border:2px solid gold;              
+  
+  
+    }
+    
+    .li1:hover,.li2:hover,.li3:hover {
+      background-color: #FFC107;          
+      border-radius: 10px;               
+      transform: translateY(-10px);      
+    }
+    .div1:hover .divi1mg img,.div2:hover .divi1mg img,.div3:hover .divi1mg img{
+      filter: brightness(100%);
+      transition-duration: 0.3s;
+  }
+  
+  
+  .divt{
+      height: 200px;
+    }
+    .b1{
+      margin-top: 45px;
+      margin-left: -190px;
+      height: 35px;
+      width: 120px;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      background-color: #0A192F;
+      cursor: pointer;
+      
+      
+  
+    }
+    .divi1mg img{
+      width: 433px;
+      display: block;
+      border-radius: 19px;
+      height: 280px;
+      filter: brightness(50%);
+      margin: 7.5px 7.5px;
+  
+  
+  }
+  
+    
+  
+    .b1:hover{
+      background-color: #0A181F;
+    }
+  
+  #divkk{
+      margin-top: 20px;
+      width:100%;
+      display: flex;
+      justify-content: space-around;
+  }
+  .div1:hover,.div2:hover,.div3:hover{
+    transform: translateY(-25px);
+    transition-duration: 0.5s;
+  
+  }
+  
+    .p11{
+      margin: 10px 10px;
+      color: rgb(195, 194, 194);
+      font-size: 20px;
+  }
+  .div1,.div2,.div3{
+      max-width: 450px;
+      height: 600px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      box-shadow: 0px 0px 5px gray;
+      cursor: pointer;
+      border: 1px solid gray ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-gap: -10px;
+  
+  }
+  
+  
+  .h22{
+      margin:20px 10px;
+      font-size: 30px;
+      color: #0A192F;
+  
+      
+  }
+    .fa-square-instagram{
+      color: white;
+      font-size: 30px;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+    .fa-square-instagram:hover{
+      color: #FFC107;
+      transform: translateY(5px);
+  
+  
+  
+      transition-duration: 0.3s;
+  
+    }
+    
+    .fa-square-x-twitter:hover{
+      color: #FFC107;
+  
+  
+      transition-duration: 0.3s;
+      transform: translateY(5px);
+  
+  
+  
+  
+    }
+    
+    .fa-square-x-twitter{
+      color: white;
+      font-size: 30px;
+      margin-left: 40px;
+      cursor: pointer;
+  
+  
+    }
+    .fa-facebook:hover{
+      color: #FFC107;
+      transform: translateY(5px);
+      
+      transition-duration: 0.3s;
+    }
+    #divk3{
+      width: 100%;
+      height: auto;
+      background-color: #0A192F;
+      display: flex;
+      justify-content: space-between;
+  }
+  .divk3n1,.divk3n2,.divk3n3{
+      width: 200px;
+      height: auto;
+      color: white;
+      margin-top: 50px;
+      margin-bottom: 20px;
+  
+  }
+  
+  .pcontact{
+      color: white;
+      margin-top: 20px;
+      margin-left: 10px;
+      font-size: 20px;
+      font-family: sans-serif;
+      cursor: pointer;
+  
+  }
+  .pcontact:hover{
+    color: #FFC107;
+    
+  }
+  
+  .h2contact{
+      color: white;
+      margin-bottom: 30px;
+      margin-left: 10px;
+      font-size: 25px;
+      font-family: sans-serif;
+  
+  
+  }
+  
+    
+  
+    .fa-square-x-twitter{
+      color: white;
+      font-size: 30px;
+      margin-left: 40px;
+      cursor: pointer;
+  
+  
+    }
+
+    .fa-facebook{
+      color: white;
+      font-size: 30px;
+      margin-left: 40px;
+      cursor: pointer;
+  
+    }
+    
+    .divlogo img{
+        width:150px;
+        height:150px;
+        margin-top:10px;
+        filter: brightness(0) invert(1); 
+        margin-left: 100px;
+    }
+    @media(max-width:450px){
+      .info{
+        width: 400px;
+        height: 500px;
+        position: fixed;
+        left: -30px;
+      }
+      .divlogo img{
+        width: 100px;
+        height: 100px;
+        margin-left: -10px;
+      }
+    
+      .divilist{
+        flex-wrap: nowrap; /* Prevents wrapping */
+      }
+    
+      .li1,.li2,.li3 {
+        width: 70px;
+        height: 25px;
+        gap: 5px;
+        margin-left: 10px;
+      }
+      
+      .li1{
+        margin-left: 10px;
+      }
+      #divkk{
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      #divik2{
+        height: auto;
+      }
+      .div2{
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 25px;
+      }
+      .div3{
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 25px;
+    
+    
+      }
+      .divi1mg img{
+        width: 382px;
+      }
+      .div1{
+        width: 400px;
+        margin-left: 25px;
+    
+      }
+      .h22{
+        font-size: 25px;
+      }
+      .p11{
+        font-size: 20px;
+      }
+      .h2contact{
+        font-size: 16px;
+      }
+      .pcontact{
+        font-size: 10px;
+      }
+      .fa-facebook{
+        margin-top: 15px;
+        margin-left: 69px;
+    
+      }
+      .fa-square-instagram{
+        margin-left: 70px;
+    
+    
+      }
+      .h31{
+        margin-left: -310px;
+      }
+      .fa-square-x-twitter{
+        margin-top: 15px;
+        margin-left: 72px;
+    
+    
+    
+      }
+      .divk3n3{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+    
+    
+    
+    
+    }
+    @media(max-width:850px){
+      .info{
+        width: 800px;
+        height: 600px;
+        position: fixed;
+        left: -30px;
+      }
+      .divlogo img{
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+      }
+    
+      .divilist{
+        flex-wrap: nowrap; /* Prevents wrapping */
+      }
+    
+      .li1,.li2,.li3 {
+        width: 70px;
+        height: 25px;
+        gap: 10px;
+        margin-left: 10px;
+      }
+      .li1{
+        margin-left: -10px;
+      }
+      #divkk{
+        flex-direction: row;
+        margin-top: 10px;
+      }
+      #divik2{
+        height: auto;
+      }
+      .div2{
+        margin-top: 0px;
+        width: 270px;
+        margin-left: 15px;
+        height: auto;
+      }
+      .div3{
+        margin-top: 0px;
+        width: 270px;
+        margin-left: 15px;
+        height: auto;
+    
+    
+      }
+      .divi1mg img{
+        width: 252px;
+        height: 230px;
+      }
+      .div1{
+        width: 270px;
+        margin-left: 15px;
+        height: auto;
+    
+      }
+      .h22{
+        font-size: 22px;
+      }
+      .p11{
+        font-size: 18px;
+      }
+      .h2contact{
+        font-size: 16px;
+      }
+      .pcontact{
+        font-size: 10px;
+      }
+      .fa-facebook{
+        margin-top: 15px;
+        margin-left: 69px;
+    
+      }
+      .fa-square-instagram{
+        margin-left: 70px;
+    
+    
+      }
+      .fa-square-x-twitter{
+        margin-top: 15px;
+        margin-left: 72px;
+    
+    
+    
+      }
+      .divk3n3{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      .h31{
+        margin-left: -730px;
+      }
+      .b1{
+        margin-top: 90px;
+        margin-bottom: 30px;
+        margin-left: -120px;
+      }
+      
+    
+    
+    
+    
+    }
